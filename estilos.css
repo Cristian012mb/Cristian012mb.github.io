@@ -1,0 +1,134 @@
+*{
+    list-style: none;
+    margin: none;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-decoration: none;
+      
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#inicio{
+    width: 100%;
+ 
+}
+
+
+#fondo{
+    background-image: url(img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-fondodos{
+    background-color: #EBF5F2;
+}
+
+.bg-fondocoraousel{
+    background-color: #EBF5F2;
+}
+
+.bg-fondointegrantes{
+    background-color: #EBF5F2;
+}
+
+
+ul#ejm3 li a{
+    position: relative;
+    color:#000000;
+    overflow:hidden;
+    text-decoration: none;
+}
+ul#ejm3 li a:before{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding: 10px 20px;
+    background: none repeat scroll 0% 0% #FFF;
+    color: #0D668E;
+    content: attr(title);
+    transition: transform 0.3s ease 0s;
+}
+ul#ejm3 li a span{
+    display: block;
+    position: relative;
+    padding: 10px 20px;
+    background: none repeat scroll 0% 0% #0D668E;
+    transition: transform 0.3s ease 0s;
+    z-index: 2;
+}
+
+ul#ejm3 li a:hover span{
+    transform: translatex(100%);
+}
+
+  
+
+  #textoenca{
+      font-size: 37px;
+  }
+
+  #redes{
+      position: relative;
+      left: 120px;
+      bottom: 420px;
+  }
+/* inicio de estilos de la seccion dos*/
+
+@keyframes cambiaColor {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+    50% {
+      color: rgb(45, 206, 218);
+    }
+    100% {
+      color: rgb(120, 8, 134);
+    }
+  }
+  
+  .texto-con-animacion {
+    animation: cambiaColor 3s infinite;
+  }
+  
+@keyframes cambiaColor1 {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+    50% {
+      color: rgb(255, 255, 255);
+    }
+    100% {
+      color: rgb(12, 12, 12);
+    }
+  }
+  
+  .texto-con-animacion1 {
+    animation: cambiaColor1 3s infinite;
+  }
+  
+
+#manos{
+    opacity: 0;
+    transition-duration: .2s;
+}
+
+#cristian{
+    opacity: 0;
+    transition-duration: .2s;
+}
+
+#juanja{
+    opacity: 0;
+    transition-duration: .2s;
+}
+
+#palacio{
+    opacity: 0;
+    transition-duration: .2s;
+}
+
